@@ -2,7 +2,7 @@
 
 ### Botun Amacı
 
-[WatcherS](http://discord.gg/watchers) Partner Botu, WatcherS sunucusunda partnerlik işlerini kolaylaştırmayı amaçlayan ve WatcherS sunucuna özel olan bir Discord botudur. Genel amaçları olarak; Paylaşılan partner metinlerini kontrol eder, sunucunun yasaklanma durumunu inceler, varsa davet linklerini kontrol eder ve de ayrıca ayarlanmışsa partnerlik sürelerini takip eder. Böylece sunucudaki partnerlik işlemlerini daha düzenli hale getirmeyi amaçlar.
+WatcherS Partner Botu, WatcherS sunucusunda partnerlik işlerini kolaylaştırmayı amaçlayan ve WatcherS sunucuna özel olan bir Discord botudur. Genel amaçları olarak; Paylaşılan partner metinlerini kontrol eder, sunucunun yasaklanma durumunu inceler, varsa davet linklerini kontrol eder ve de ayrıca ayarlanmışsa partnerlik sürelerini takip eder. Böylece sunucudaki partnerlik işlemlerini daha düzenli hale getirmeyi amaçlar.
 
 ### Komutlar ve Kullanımları
 
@@ -17,7 +17,7 @@
 - _Botun bilgilerini gösterir_
 
 ```
-EVERYONE /bot-bilgi
+EVERYONE /bot-info
 ```
 
 - _Günlük yaptığınız partner miktarını, tarihi, kullanıcı avatarınıız ve ID'nizi içeren bir resim gösterir_
@@ -54,9 +54,11 @@ EVERYONE /kara-liste-görüntüle
 EVERYONE /sunucu-sorgula
 ```
 
-| Parametre     | Tip    | Gerekli  | Varsayılan | Açıklama                           |
-| ------------- | ------ | -------- | ---------- | ---------------------------------- |
-| `davet-linki` | `yazı` | **Evet** | -          | Sorgulanacak sunucunun davet linki |
+- _`ADMIN` olarak ayarlanan kişilerin listesini gösterir_
+
+```
+EVERYONE /yetkilileri-göster
+```
 
 - _ID'si verilen sunucuyu (yoksa) kara listeye ekler_
 
@@ -94,6 +96,32 @@ OWNER /ayarla <partner-kanalı> <bildirim-kanalı> <süre> <süre-türü>
 | `süre-türü`       | `seçenek` | **Hayır** | -          | Partnerlik süresinin türü                                          |
 
 > **Not:** `süre` belirtilmişse `süre-türü`nü belirtmek zorunludur.
+
+- _Belirtilen kullanıcıyı `ADMIN` olarak ayarlar_
+
+```
+OWNER /yetkili-ekle <kullanıcı> <sebep>
+```
+
+| Parametre   | Tip         | Gerekli   | Varsayılan           | Açıklama                                            |
+| ----------- | ----------- | --------- | -------------------- | --------------------------------------------------- |
+| `kullanıcı` | `kullanıcı` | **Evet**  | -                    | `ADMIN` olarak ayarlanacak kullanıcı                |
+| `sebep`     | `yazı`      | **Hayır** | Sebep Belirtilemedi! | Kullanıcının `ADMIN` olarak ayarlanma nedeni/sebebi |
+
+- _Belirtilen kullanıcıyı `ADMIN` ise listeden çıkartır_
+
+```
+OWNER /yetkili-çıkart <kullanıcı> <sebep>
+```
+
+| Parametre   | Tip         | Gerekli   | Varsayılan           | Açıklama                                                |
+| ----------- | ----------- | --------- | -------------------- | ------------------------------------------------------- |
+| `kullanıcı` | `kullanıcı` | **Evet**  | -                    | `ADMIN` listesinden çıkarılacak kullanıcı               |
+| `sebep`     | `yazı`      | **Hayır** | Sebep Belirtilemedi! | Kullanıcının `ADMIN` listesinden çkarılma nedeni/sebebi |
+
+| Parametre     | Tip    | Gerekli  | Varsayılan | Açıklama                           |
+| ------------- | ------ | -------- | ---------- | ---------------------------------- |
+| `davet-linki` | `yazı` | **Evet** | -          | Sorgulanacak sunucunun davet linki |
 
 - _Partner kanalını yeniden ayaralamanıza olanak sağlar_
 
@@ -150,6 +178,13 @@ OWNER /partnerlik-kapat
 
 Destek almak için [WatcherS](http://discord.gg/watchers) discord sunucuna gelip `<@1224363326335881317> | exion.hub` discord hesabıyla iletişime geçebilirsiniz. Boş yazmanız durumunda engellenebilirsiniz.
 
+## Kullanılan Bağlılıklar
+
+- discord.js
+- canvas
+- node-fetch
+- node-cron
+- quick.db
 
 ## Bot Hakkında Diğer Bilgiler
 
