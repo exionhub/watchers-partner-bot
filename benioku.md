@@ -17,7 +17,7 @@
 - _Botun bilgilerini gösterir_
 
 ```
-EVERYONE /bot-info
+EVERYONE /bot-bilgi
 ```
 
 - _Günlük yaptığınız partner miktarını, tarihi, kullanıcı avatarınıız ve ID'nizi içeren bir resim gösterir_
