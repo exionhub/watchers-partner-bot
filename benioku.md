@@ -2,7 +2,7 @@
 
 ### Botun Amacı
 
-WatcherS Partner Botu, WatcherS sunucusunda partnerlik işlerini kolaylaştırmayı amaçlayan ve WatcherS sunucuna özel olan bir Discord botudur. Genel amaçları olarak; Paylaşılan partner metinlerini kontrol eder, sunucunun yasaklanma durumunu inceler, varsa davet linklerini kontrol eder ve de ayrıca ayarlanmışsa partnerlik sürelerini takip eder. Böylece sunucudaki partnerlik işlemlerini daha düzenli hale getirmeyi amaçlar.
+[WatcherS](http://discord.gg/watchers) Partner Botu, WatcherS sunucusunda partnerlik işlerini kolaylaştırmayı amaçlayan ve WatcherS sunucuna özel olan bir Discord botudur. Genel amaçları olarak; Paylaşılan partner metinlerini kontrol eder, sunucunun yasaklanma durumunu inceler, varsa davet linklerini kontrol eder ve de ayrıca ayarlanmışsa partnerlik sürelerini takip eder. Böylece sunucudaki partnerlik işlemlerini daha düzenli hale getirmeyi amaçlar.
 
 ### Komutlar ve Kullanımları
 
