@@ -43,13 +43,13 @@ EVERYONE /kara-liste-getir <sunucu-id>
 | ----------- | ------ | -------- | ---------- | ----------------------------------------- |
 | `sunucu-id` | `sayı` | **Evet** | -          | Yasaklanma bilgileri istenen sunucu ID'si |
 
-- **Kara listeye alınmış sunucuları sizin için listeler**
+- *Kara listeye alınmış sunucuları sizin için listeler*
 
 ```
 EVERYONE /kara-liste-görüntüle
 ```
 
-- **Davet linki verilen sunucunun basit bilgilerini gösterir**
+- *Davet linki verilen sunucunun basit bilgilerini gösterir*
 
 ```
 EVERYONE /sunucu-sorgula <davet-linki>
