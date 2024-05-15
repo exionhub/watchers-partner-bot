@@ -150,13 +150,6 @@ OWNER /partnerlik-kapat
 
 Destek almak için [WatcherS](http://discord.gg/watchers) discord sunucuna gelip `<@1224363326335881317> | exion.hub` discord hesabıyla iletişime geçebilirsiniz. Boş yazmanız durumunda engellenebilirsiniz.
 
-## Kullanılan Bağlılıklar
-
-- discord.js
-- canvas
-- node-fetch
-- node-cron
-- quick.db
 
 ## Bot Hakkında Diğer Bilgiler
 
