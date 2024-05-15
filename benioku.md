@@ -52,8 +52,12 @@ EVERYONE /kara-liste-görüntüle
 - **Davet linki verilen sunucunun basit bilgilerini gösterir**
 
 ```
-EVERYONE /sunucu-sorgula
+EVERYONE /sunucu-sorgula <davet-linki>
 ```
+
+| Parametre     | Tip    | Gerekli  | Varsayılan | Açıklama                           |
+| ------------- | ------ | -------- | ---------- | ---------------------------------- |
+| `davet-linki` | `yazı` | **Evet** | -          | Sorgulanacak sunucunun davet linki |
 
 - _`ADMIN` olarak ayarlanan kişilerin listesini gösterir_
 
@@ -120,10 +124,6 @@ OWNER /yetkili-çıkart <kullanıcı> <sebep>
 | `kullanıcı` | `kullanıcı` | **Evet**  | -                    | `ADMIN` listesinden çıkarılacak kullanıcı               |
 | `sebep`     | `yazı`      | **Hayır** | Sebep Belirtilemedi! | Kullanıcının `ADMIN` listesinden çkarılma nedeni/sebebi |
 
-| Parametre     | Tip    | Gerekli  | Varsayılan | Açıklama                           |
-| ------------- | ------ | -------- | ---------- | ---------------------------------- |
-| `davet-linki` | `yazı` | **Evet** | -          | Sorgulanacak sunucunun davet linki |
-
 - _Partner kanalını yeniden ayaralamanıza olanak sağlar_
 
 ```
@@ -178,14 +178,6 @@ OWNER /partnerlik-kapat
 ## Hata İletme ve Destek
 
 Destek almak için [WatcherS](http://discord.gg/watchers) discord sunucuna gelip `<@1224363326335881317> | exion.hub` discord hesabıyla iletişime geçebilirsiniz. Boş yazmanız durumunda engellenebilirsiniz.
-
-## Kullanılan Bağlılıklar
-
-- discord.js
-- canvas
-- node-fetch
-- node-cron
-- quick.db
 
 ## Bot Hakkında Diğer Bilgiler
 
