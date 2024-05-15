@@ -163,18 +163,6 @@ OWNER /ayarla-partner-süre <süre> <süre-türü>
 OWNER /partnerlik-kapat
 ```
 
-## Gerekli İzinler
-
-| Ad                        | komut(lar)         | Kanallar   |
-| ------------------------- | ------------------ | ---------- |
-| Kanalları Görüntüle       | `Genel`            | `Genel`    |
-| Mesaj Gönder              | `Genel`            | `Genel`    |
-| Mesaj Geçmişini Görüntüle | `Genel`            | `Genel`    |
-| Attach Files              | `Genel`            | `Genel`    |
-| Embed Link                | `Genel`            | `Genel`    |
-| Mesajları Yönet           | `Partner Kontrolü` | `Partner`  |
-| Yönetici                  | `Önerilen`         | `Önerilen` |
-
 ## Hata İletme ve Destek
 
 Destek almak için [WatcherS](http://discord.gg/watchers) discord sunucuna gelip `<@1224363326335881317> | exion.hub` discord hesabıyla iletişime geçebilirsiniz. Boş yazmanız durumunda engellenebilirsiniz.
