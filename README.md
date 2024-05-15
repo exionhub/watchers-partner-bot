@@ -170,6 +170,7 @@ Destek almak için [WatcherS](http://discord.gg/watchers) discord sunucuna gelip
 ## Bot Hakkında Diğer Bilgiler
 
 - **Geliştirici:** exionhub | exion.hub
+- **Discord Sunucusu:** [WatcherS](https://discord.com/invite/watchers)
 - **Discord.js Versiyonu:** v14.15.2
 - **Node.js Versiyonu:** v20.13.1
 - **Bot Versiyonu:** v1.0.0
